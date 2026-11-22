@@ -1,0 +1,224 @@
+turn,node_id,node_label,predicted_label,true_label,question,prompt,answer,error,llm_model
+1,5541,Herbert Kuss,Business Information and Communication Systems,Business Information and Communication Systems,Why was this researcher assigned to this affiliation?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Herbert Kuss (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1860instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Herbert Kuss --:name--> Herbert Kuss (direction: forward; importance: 0.684)
+2. Herbert Kuss --:name--> Herbert Kuss (direction: inverse; importance: 0.683)
+3. Herbert Kuss --:series--> None (direction: inverse; importance: 0.683)
+4. Herbert Kuss --:homepage-->  (direction: inverse; importance: 0.683)
+5. Herbert Kuss --rdf:type--> :Person (direction: inverse; importance: 0.670)
+6. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.664)
+7. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.510)
+8. Herbert Kuss --:fax-->  (direction: inverse; importance: 0.427)
+9. JÃ¼rgen Weisheit --rdf:type--> :Person (direction: forward; importance: 0.286)
+10. Thomas Eigner --rdf:type--> :Person (direction: forward; importance: 0.282)
+
+User question:
+Why was this researcher assigned to this affiliation?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+","The GNNExplainer evidence indicates that Herbert Kuss was assigned to the ""Business Information and Communication Systems"" affiliation based on attributes of Herbert Kuss such as being a :Person, having a name, and a homepage.
+
+More indirectly, the explanation also highlights the importance of a connection involving ""Knowledge Portals"" and an abstract, as well as a publication with a title. However, the content of these abstracts or titles is not provided in the evidence, making it difficult to directly interpret their specific relevance to ""Business Information and Communication Systems"". The evidence also points to connections with other individuals, JÃ¼rgen Weisheit and Thomas Eigner, who are also identified as :Person.
+
+Overall, the provided evidence is indirect and does not explicitly detail the specific reasons or content that led to the ""Business Information and Communication Systems"" affiliation.",,gemini-2.5-flash
+2,5541,Herbert Kuss,Business Information and Communication Systems,Business Information and Communication Systems,Which graph relationship was most important for this prediction?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Herbert Kuss (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1860instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Herbert Kuss --:name--> Herbert Kuss (direction: forward; importance: 0.684)
+2. Herbert Kuss --:name--> Herbert Kuss (direction: inverse; importance: 0.683)
+3. Herbert Kuss --:series--> None (direction: inverse; importance: 0.683)
+4. Herbert Kuss --:homepage-->  (direction: inverse; importance: 0.683)
+5. Herbert Kuss --rdf:type--> :Person (direction: inverse; importance: 0.670)
+6. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.664)
+7. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.510)
+8. Herbert Kuss --:fax-->  (direction: inverse; importance: 0.427)
+9. JÃ¼rgen Weisheit --rdf:type--> :Person (direction: forward; importance: 0.286)
+10. Thomas Eigner --rdf:type--> :Person (direction: forward; importance: 0.282)
+
+User question:
+Which graph relationship was most important for this prediction?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+","The graph relationship most important for this prediction was ""Herbert Kuss --:name--> Herbert Kuss"" with an importance score of 0.684.",,gemini-2.5-flash
+3,5541,Herbert Kuss,Business Information and Communication Systems,Business Information and Communication Systems,Is this evidence strong enough to trust the prediction?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Herbert Kuss (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1860instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Herbert Kuss --:name--> Herbert Kuss (direction: forward; importance: 0.684)
+2. Herbert Kuss --:name--> Herbert Kuss (direction: inverse; importance: 0.683)
+3. Herbert Kuss --:series--> None (direction: inverse; importance: 0.683)
+4. Herbert Kuss --:homepage-->  (direction: inverse; importance: 0.683)
+5. Herbert Kuss --rdf:type--> :Person (direction: inverse; importance: 0.670)
+6. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.664)
+7. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.510)
+8. Herbert Kuss --:fax-->  (direction: inverse; importance: 0.427)
+9. JÃ¼rgen Weisheit --rdf:type--> :Person (direction: forward; importance: 0.286)
+10. Thomas Eigner --rdf:type--> :Person (direction: forward; importance: 0.282)
+
+User question:
+Is this evidence strong enough to trust the prediction?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+","Based on the provided evidence:
+
+The evidence is weak and largely indirect for trusting the prediction that Herbert Kuss belongs to ""Business Information and Communication Systems.""
+
+Most of the evidence describes basic attributes of Herbert Kuss (name, type as Person, lack of series/homepage/fax information) or mentions other individuals without context, none of which directly explain the predicted class.
+
+While ""Knowledge Portals"" (evidence 6) and a publication (evidence 7) could potentially be related to the predicted class, the abstract content for ""Knowledge Portals"" and the title of the publication are not provided, making it impossible to assess their specific relevance.",,gemini-2.5-flash
+4,5541,Herbert Kuss,Business Information and Communication Systems,Business Information and Communication Systems,Are there any weak or uninformative facts in the explanation?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Herbert Kuss (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1860instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Herbert Kuss --:name--> Herbert Kuss (direction: forward; importance: 0.684)
+2. Herbert Kuss --:name--> Herbert Kuss (direction: inverse; importance: 0.683)
+3. Herbert Kuss --:series--> None (direction: inverse; importance: 0.683)
+4. Herbert Kuss --:homepage-->  (direction: inverse; importance: 0.683)
+5. Herbert Kuss --rdf:type--> :Person (direction: inverse; importance: 0.670)
+6. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.664)
+7. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.510)
+8. Herbert Kuss --:fax-->  (direction: inverse; importance: 0.427)
+9. JÃ¼rgen Weisheit --rdf:type--> :Person (direction: forward; importance: 0.286)
+10. Thomas Eigner --rdf:type--> :Person (direction: forward; importance: 0.282)
+
+User question:
+Are there any weak or uninformative facts in the explanation?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+","Yes, there are several weak or uninformative facts in the explanation:
+
+*   **Facts 1 and 2** (""Herbert Kuss --:name--> Herbert Kuss"") are self-referential and do not provide specific information for classification.
+*   **Facts 3, 4, 6, 7, and 8** contain empty or ""None"" values for attributes like series, homepage, abstract, title, and fax, making them uninformative.
+*   **Fact 5** (""Herbert Kuss --rdf:type--> :Person"") is a very general statement and does not specifically contribute to distinguishing the predicted class.
+*   **Facts 9 and 10** (about JÃ¼rgen Weisheit and Thomas Eigner being persons) are about other individuals, and their direct relevance to Herbert Kuss's classification is not clear from this evidence alone.",,gemini-2.5-flash
+5,5541,Herbert Kuss,Business Information and Communication Systems,Business Information and Communication Systems,Can you summarize the explanation in one sentence?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Herbert Kuss (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1860instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Herbert Kuss --:name--> Herbert Kuss (direction: forward; importance: 0.684)
+2. Herbert Kuss --:name--> Herbert Kuss (direction: inverse; importance: 0.683)
+3. Herbert Kuss --:series--> None (direction: inverse; importance: 0.683)
+4. Herbert Kuss --:homepage-->  (direction: inverse; importance: 0.683)
+5. Herbert Kuss --rdf:type--> :Person (direction: inverse; importance: 0.670)
+6. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.664)
+7. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.510)
+8. Herbert Kuss --:fax-->  (direction: inverse; importance: 0.427)
+9. JÃ¼rgen Weisheit --rdf:type--> :Person (direction: forward; importance: 0.286)
+10. Thomas Eigner --rdf:type--> :Person (direction: forward; importance: 0.282)
+
+User question:
+Can you summarize the explanation in one sentence?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+","The prediction for Herbert Kuss is primarily based on his name and type as a Person, with additional, less direct evidence involving ""Knowledge Portals"" and a publication.",,gemini-2.5-flash
+6,5541,Herbert Kuss,Business Information and Communication Systems,Business Information and Communication Systems,What can you not conclude from this evidence?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Herbert Kuss (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1860instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Herbert Kuss --:name--> Herbert Kuss (direction: forward; importance: 0.684)
+2. Herbert Kuss --:name--> Herbert Kuss (direction: inverse; importance: 0.683)
+3. Herbert Kuss --:series--> None (direction: inverse; importance: 0.683)
+4. Herbert Kuss --:homepage-->  (direction: inverse; importance: 0.683)
+5. Herbert Kuss --rdf:type--> :Person (direction: inverse; importance: 0.670)
+6. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.664)
+7. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.510)
+8. Herbert Kuss --:fax-->  (direction: inverse; importance: 0.427)
+9. JÃ¼rgen Weisheit --rdf:type--> :Person (direction: forward; importance: 0.286)
+10. Thomas Eigner --rdf:type--> :Person (direction: forward; importance: 0.282)
+
+User question:
+What can you not conclude from this evidence?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+","From this evidence, you cannot conclude:
+
+*   Any direct relationships between Herbert Kuss and the entities 'Knowledge Portals', the publication <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance>, JÃ¼rgen Weisheit, or Thomas Eigner. The evidence only shows these entities are part of the explanation.
+*   The specific content of the abstract for 'Knowledge Portals' or the title of the publication. The evidence only indicates their existence.
+*   The explicit reasoning or mechanism by which these pieces of evidence lead to the prediction 'Business Information and Communication Systems' for Herbert Kuss.",,gemini-2.5-flash

@@ -1,0 +1,11 @@
+turn,question,answer,evaluator,grounded,useful,handles_uncertainty,hallucination_free,notes
+1,Why was this researcher assigned to this affiliation?,"Based on the provided evidence, the assignment of Thomas Mochel to the ""Business Information and Communication Systems"" affiliation is not explicitly detailed.
+
+The most relevant piece of evidence is the mention of ""Knowledge Portals"" (importance: 0.725) as an abstract. While ""Knowledge Portals"" could be a topic within ""Business Information and Communication Systems,"" the evidence does not explicitly state Thomas Mochel's direct connection to this abstract or the specific content that would lead to this classification.
+
+Other evidence points to Thomas Mochel being a person, having a homepage, and mentions a publication title (without providing the title itself), but these do not directly explain the specific affiliation. The evidence is indirect and does not clearly show the direct reasons for this particular classification.",Evaluator_1,1,1,1,1,
+2,Which graph relationship was most important for this prediction?,"Based on the GNNExplainer evidence, the most important graph relationship for this prediction was ""Knowledge Portals --:abstract-->"" with an importance score of 0.725.",Evaluator_1,1,1,0,1,
+3,Is this evidence strong enough to trust the prediction?,,Evaluator_1,1,1,1,1,
+4,Are there any weak or uninformative facts in the explanation?,,Evaluator_1,1,1,1,1,
+5,Can you summarize the explanation in one sentence?,,Evaluator_1,1,1,0,1,
+6,What can you not conclude from this evidence?,,Evaluator_1,1,1,1,1,

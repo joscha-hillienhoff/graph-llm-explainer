@@ -1,0 +1,11 @@
+source_id,target_id,edge_type,source_label,target_label,predicate,direction,importance_score,generated_fact
+5535,4077,8,Sabine Just-HÃ¶pfinger,Sabine Just-HÃ¶pfinger,:name,forward,0.6877076029777527,Sabine Just-HÃ¶pfinger --:name--> Sabine Just-HÃ¶pfinger
+4077,5535,9,Sabine Just-HÃ¶pfinger,Sabine Just-HÃ¶pfinger,:name,inverse,0.6837498545646667,Sabine Just-HÃ¶pfinger --:name--> Sabine Just-HÃ¶pfinger
+3162,5535,37,None,Sabine Just-HÃ¶pfinger,:series,inverse,0.6833161115646362,Sabine Just-HÃ¶pfinger --:series--> None
+0,5535,39,,Sabine Just-HÃ¶pfinger,:homepage,inverse,0.6832385063171387,Sabine Just-HÃ¶pfinger --:homepage--> 
+5078,5535,3,:Person,Sabine Just-HÃ¶pfinger,rdf:type,inverse,0.6752375364303589,Sabine Just-HÃ¶pfinger --rdf:type--> :Person
+7690,0,28,Knowledge Portals,,:abstract,forward,0.6723272204399109,Knowledge Portals --:abstract--> 
+6774,0,10,<http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance>,,:title,forward,0.49469053745269775,<http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title--> 
+0,5535,41,,Sabine Just-HÃ¶pfinger,:fax,inverse,0.4240383803844452,Sabine Just-HÃ¶pfinger --:fax--> 
+6158,5078,2,Johanna Voelker,:Person,rdf:type,forward,0.2829853296279907,Johanna Voelker --rdf:type--> :Person
+5575,5078,2,<http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1982instance>,:Person,rdf:type,forward,0.2822851240634918,<http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1982instance> --rdf:type--> :Person

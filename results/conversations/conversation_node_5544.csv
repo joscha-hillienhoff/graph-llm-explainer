@@ -1,0 +1,209 @@
+turn,node_id,node_label,predicted_label,true_label,question,prompt,answer,error,llm_model
+1,5544,Thomas Mochel,Business Information and Communication Systems,Business Information and Communication Systems,Why was this researcher assigned to this affiliation?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Thomas Mochel (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1868instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.725)
+2. Thomas Mochel --:homepage-->  (direction: inverse; importance: 0.710)
+3. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.697)
+4. Thomas Mochel --rdf:type--> :Person (direction: inverse; importance: 0.696)
+5. Markus Wiese --:series-->  (direction: forward; importance: 0.688)
+6. Thomas Mochel --:name--> Thomas Mochel (direction: forward; importance: 0.686)
+7. Thomas Mochel --:name--> Thomas Mochel (direction: inverse; importance: 0.685)
+8. Thomas Mochel --:fax-->  (direction: inverse; importance: 0.326)
+9. :Person --rdf:type--> owl:Class (direction: inverse; importance: 0.288)
+10. Monica GÃ¶stl --rdf:type--> :Person (direction: forward; importance: 0.286)
+
+User question:
+Why was this researcher assigned to this affiliation?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+","Based on the provided evidence, the assignment of Thomas Mochel to the ""Business Information and Communication Systems"" affiliation is not explicitly detailed.
+
+The most relevant piece of evidence is the mention of ""Knowledge Portals"" (importance: 0.725) as an abstract. While ""Knowledge Portals"" could be a topic within ""Business Information and Communication Systems,"" the evidence does not explicitly state Thomas Mochel's direct connection to this abstract or the specific content that would lead to this classification.
+
+Other evidence points to Thomas Mochel being a person, having a homepage, and mentions a publication title (without providing the title itself), but these do not directly explain the specific affiliation. The evidence is indirect and does not clearly show the direct reasons for this particular classification.",,gemini-2.5-flash
+2,5544,Thomas Mochel,Business Information and Communication Systems,Business Information and Communication Systems,Which graph relationship was most important for this prediction?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Thomas Mochel (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1868instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.725)
+2. Thomas Mochel --:homepage-->  (direction: inverse; importance: 0.710)
+3. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.697)
+4. Thomas Mochel --rdf:type--> :Person (direction: inverse; importance: 0.696)
+5. Markus Wiese --:series-->  (direction: forward; importance: 0.688)
+6. Thomas Mochel --:name--> Thomas Mochel (direction: forward; importance: 0.686)
+7. Thomas Mochel --:name--> Thomas Mochel (direction: inverse; importance: 0.685)
+8. Thomas Mochel --:fax-->  (direction: inverse; importance: 0.326)
+9. :Person --rdf:type--> owl:Class (direction: inverse; importance: 0.288)
+10. Monica GÃ¶stl --rdf:type--> :Person (direction: forward; importance: 0.286)
+
+User question:
+Which graph relationship was most important for this prediction?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+","Based on the GNNExplainer evidence, the most important graph relationship for this prediction was ""Knowledge Portals --:abstract-->"" with an importance score of 0.725.",,gemini-2.5-flash
+3,5544,Thomas Mochel,Business Information and Communication Systems,Business Information and Communication Systems,Is this evidence strong enough to trust the prediction?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Thomas Mochel (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1868instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.725)
+2. Thomas Mochel --:homepage-->  (direction: inverse; importance: 0.710)
+3. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.697)
+4. Thomas Mochel --rdf:type--> :Person (direction: inverse; importance: 0.696)
+5. Markus Wiese --:series-->  (direction: forward; importance: 0.688)
+6. Thomas Mochel --:name--> Thomas Mochel (direction: forward; importance: 0.686)
+7. Thomas Mochel --:name--> Thomas Mochel (direction: inverse; importance: 0.685)
+8. Thomas Mochel --:fax-->  (direction: inverse; importance: 0.326)
+9. :Person --rdf:type--> owl:Class (direction: inverse; importance: 0.288)
+10. Monica GÃ¶stl --rdf:type--> :Person (direction: forward; importance: 0.286)
+
+User question:
+Is this evidence strong enough to trust the prediction?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+",,RuntimeError: Gemini API quota exceeded. Try again later or use another API key/project.,gemini-2.5-flash
+4,5544,Thomas Mochel,Business Information and Communication Systems,Business Information and Communication Systems,Are there any weak or uninformative facts in the explanation?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Thomas Mochel (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1868instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.725)
+2. Thomas Mochel --:homepage-->  (direction: inverse; importance: 0.710)
+3. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.697)
+4. Thomas Mochel --rdf:type--> :Person (direction: inverse; importance: 0.696)
+5. Markus Wiese --:series-->  (direction: forward; importance: 0.688)
+6. Thomas Mochel --:name--> Thomas Mochel (direction: forward; importance: 0.686)
+7. Thomas Mochel --:name--> Thomas Mochel (direction: inverse; importance: 0.685)
+8. Thomas Mochel --:fax-->  (direction: inverse; importance: 0.326)
+9. :Person --rdf:type--> owl:Class (direction: inverse; importance: 0.288)
+10. Monica GÃ¶stl --rdf:type--> :Person (direction: forward; importance: 0.286)
+
+User question:
+Are there any weak or uninformative facts in the explanation?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+",,RuntimeError: Gemini API quota exceeded. Try again later or use another API key/project.,gemini-2.5-flash
+5,5544,Thomas Mochel,Business Information and Communication Systems,Business Information and Communication Systems,Can you summarize the explanation in one sentence?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Thomas Mochel (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1868instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.725)
+2. Thomas Mochel --:homepage-->  (direction: inverse; importance: 0.710)
+3. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.697)
+4. Thomas Mochel --rdf:type--> :Person (direction: inverse; importance: 0.696)
+5. Markus Wiese --:series-->  (direction: forward; importance: 0.688)
+6. Thomas Mochel --:name--> Thomas Mochel (direction: forward; importance: 0.686)
+7. Thomas Mochel --:name--> Thomas Mochel (direction: inverse; importance: 0.685)
+8. Thomas Mochel --:fax-->  (direction: inverse; importance: 0.326)
+9. :Person --rdf:type--> owl:Class (direction: inverse; importance: 0.288)
+10. Monica GÃ¶stl --rdf:type--> :Person (direction: forward; importance: 0.286)
+
+User question:
+Can you summarize the explanation in one sentence?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+",,RuntimeError: Gemini API quota exceeded. Try again later or use another API key/project.,gemini-2.5-flash
+6,5544,Thomas Mochel,Business Information and Communication Systems,Business Information and Communication Systems,What can you not conclude from this evidence?,"You are a grounded conversational XAI assistant.
+
+Task:
+Answer the user's question about one node-classification prediction.
+
+Prediction metadata:
+- Explained node: Thomas Mochel (http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1868instance)
+- Predicted class: Business Information and Communication Systems
+- True class: Business Information and Communication Systems
+- Prediction correct: True
+
+Grounding evidence from GNNExplainer:
+1. Knowledge Portals --:abstract-->  (direction: forward; importance: 0.725)
+2. Thomas Mochel --:homepage-->  (direction: inverse; importance: 0.710)
+3. <http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title-->  (direction: forward; importance: 0.697)
+4. Thomas Mochel --rdf:type--> :Person (direction: inverse; importance: 0.696)
+5. Markus Wiese --:series-->  (direction: forward; importance: 0.688)
+6. Thomas Mochel --:name--> Thomas Mochel (direction: forward; importance: 0.686)
+7. Thomas Mochel --:name--> Thomas Mochel (direction: inverse; importance: 0.685)
+8. Thomas Mochel --:fax-->  (direction: inverse; importance: 0.326)
+9. :Person --rdf:type--> owl:Class (direction: inverse; importance: 0.288)
+10. Monica GÃ¶stl --rdf:type--> :Person (direction: forward; importance: 0.286)
+
+User question:
+What can you not conclude from this evidence?
+
+Rules:
+- Use only the evidence listed above.
+- Do not invent graph facts, names, labels, or causes.
+- Treat the GNNExplainer edges as the explanation evidence.
+- The language model only verbalizes the evidence; it is not the explainer.
+- If the evidence is weak, indirect, or hard to interpret, say so clearly.
+- Keep the answer concise and understandable.
+",,RuntimeError: Gemini API quota exceeded. Try again later or use another API key/project.,gemini-2.5-flash

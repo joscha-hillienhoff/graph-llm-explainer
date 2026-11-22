@@ -1,0 +1,11 @@
+source_id,target_id,edge_type,source_label,target_label,predicate,direction,importance_score,generated_fact
+5541,2269,8,Herbert Kuss,Herbert Kuss,:name,forward,0.6841254234313965,Herbert Kuss --:name--> Herbert Kuss
+2269,5541,9,Herbert Kuss,Herbert Kuss,:name,inverse,0.6832104325294495,Herbert Kuss --:name--> Herbert Kuss
+3162,5541,37,None,Herbert Kuss,:series,inverse,0.6829648017883301,Herbert Kuss --:series--> None
+0,5541,39,,Herbert Kuss,:homepage,inverse,0.68256014585495,Herbert Kuss --:homepage--> 
+5078,5541,3,:Person,Herbert Kuss,rdf:type,inverse,0.6698357462882996,Herbert Kuss --rdf:type--> :Person
+7690,0,28,Knowledge Portals,,:abstract,forward,0.663556694984436,Knowledge Portals --:abstract--> 
+6774,0,10,<http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance>,,:title,forward,0.509895920753479,<http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title--> 
+0,5541,41,,Herbert Kuss,:fax,inverse,0.4273965656757355,Herbert Kuss --:fax--> 
+6353,5078,2,JÃ¼rgen Weisheit,:Person,rdf:type,forward,0.2858715355396271,JÃ¼rgen Weisheit --rdf:type--> :Person
+6560,5078,2,Thomas Eigner,:Person,rdf:type,forward,0.2821461856365204,Thomas Eigner --rdf:type--> :Person

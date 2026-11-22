@@ -1,0 +1,11 @@
+source_id,target_id,edge_type,source_label,target_label,predicate,direction,importance_score,generated_fact
+58,5672,39,+49 (721) 608 4548,Yu Li,:homepage,inverse,0.7390835881233215,Yu Li --:homepage--> +49 (721) 608 4548
+6927,5672,1,Ein Framework zur Modellierung und Analyse von XML-Netzen,Yu Li,:publication,inverse,0.6732732653617859,Yu Li --:publication--> Ein Framework zur Modellierung und Analyse von XML-Netzen
+6933,5672,1,Simulation von Supply Chains mit Petri-Netzen,Yu Li,:publication,inverse,0.656043291091919,Yu Li --:publication--> Simulation von Supply Chains mit Petri-Netzen
+5350,6927,14,Business Information and Communication Systems,Ein Framework zur Modellierung und Analyse von XML-Netzen,:publishes,forward,0.47006016969680786,Business Information and Communication Systems --:publishes--> Ein Framework zur Modellierung und Analyse von XML-Netzen
+5350,6933,14,Business Information and Communication Systems,Simulation von Supply Chains mit Petri-Netzen,:publishes,forward,0.4500617980957031,Business Information and Communication Systems --:publishes--> Simulation von Supply Chains mit Petri-Netzen
+6927,5672,4,Ein Framework zur Modellierung und Analyse von XML-Netzen,Yu Li,:author,forward,0.4151701033115387,Ein Framework zur Modellierung und Analyse von XML-Netzen --:author--> Yu Li
+6926,5672,1,Prozessorientierte Komposition von Diensten in der Doktorandenausbildung,Yu Li,:publication,inverse,0.4067164957523346,Yu Li --:publication--> Prozessorientierte Komposition von Diensten in der Doktorandenausbildung
+5350,6926,14,Business Information and Communication Systems,Prozessorientierte Komposition von Diensten in der Doktorandenausbildung,:publishes,forward,0.37773510813713074,Business Information and Communication Systems --:publishes--> Prozessorientierte Komposition von Diensten in der Doktorandenausbildung
+6933,5672,4,Simulation von Supply Chains mit Petri-Netzen,Yu Li,:author,forward,0.35835570096969604,Simulation von Supply Chains mit Petri-Netzen --:author--> Yu Li
+4922,5672,9,Yu Li,Yu Li,:name,inverse,0.3376099765300751,Yu Li --:name--> Yu Li

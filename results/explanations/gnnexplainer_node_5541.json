@@ -1,0 +1,81 @@
+{
+  "node_id": 5541,
+  "node_uri": "http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1860instance",
+  "predicted_label_id": 0,
+  "predicted_label_uri": "http://www.aifb.uni-karlsruhe.de/Forschungsgruppen/viewForschungsgruppeOWL/id1instance",
+  "true_label_id": 0,
+  "true_label_uri": "http://www.aifb.uni-karlsruhe.de/Forschungsgruppen/viewForschungsgruppeOWL/id1instance",
+  "correct": true,
+  "edges": [
+    {
+      "source_id": 5541,
+      "target_id": 2269,
+      "edge_type": 8,
+      "importance": 0.6841254234313965
+    },
+    {
+      "source_id": 2269,
+      "target_id": 5541,
+      "edge_type": 9,
+      "importance": 0.6832104325294495
+    },
+    {
+      "source_id": 3162,
+      "target_id": 5541,
+      "edge_type": 37,
+      "importance": 0.6829648017883301
+    },
+    {
+      "source_id": 0,
+      "target_id": 5541,
+      "edge_type": 39,
+      "importance": 0.68256014585495
+    },
+    {
+      "source_id": 5078,
+      "target_id": 5541,
+      "edge_type": 3,
+      "importance": 0.6698357462882996
+    },
+    {
+      "source_id": 7690,
+      "target_id": 0,
+      "edge_type": 28,
+      "importance": 0.663556694984436
+    },
+    {
+      "source_id": 6774,
+      "target_id": 0,
+      "edge_type": 10,
+      "importance": 0.509895920753479
+    },
+    {
+      "source_id": 0,
+      "target_id": 5541,
+      "edge_type": 41,
+      "importance": 0.4273965656757355
+    },
+    {
+      "source_id": 6353,
+      "target_id": 5078,
+      "edge_type": 2,
+      "importance": 0.2858715355396271
+    },
+    {
+      "source_id": 6560,
+      "target_id": 5078,
+      "edge_type": 2,
+      "importance": 0.2821461856365204
+    }
+  ],
+  "metadata": {
+    "explainer": "GNNExplainer",
+    "top_k_edges": 10,
+    "edge_mask_type": "object",
+    "excluded_predicates": [
+      "http://swrc.ontoware.org/ontology#affiliation",
+      "http://swrc.ontoware.org/ontology#member",
+      "http://swrc.ontoware.org/ontology#employs"
+    ]
+  }
+}

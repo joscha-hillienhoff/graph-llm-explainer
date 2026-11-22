@@ -1,0 +1,81 @@
+{
+  "node_id": 5747,
+  "node_uri": "http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id82instance",
+  "predicted_label_id": 0,
+  "predicted_label_uri": "http://www.aifb.uni-karlsruhe.de/Forschungsgruppen/viewForschungsgruppeOWL/id1instance",
+  "true_label_id": 0,
+  "true_label_uri": "http://www.aifb.uni-karlsruhe.de/Forschungsgruppen/viewForschungsgruppeOWL/id1instance",
+  "correct": true,
+  "edges": [
+    {
+      "source_id": 20,
+      "target_id": 5747,
+      "edge_type": 39,
+      "importance": 0.7324219942092896
+    },
+    {
+      "source_id": 5747,
+      "target_id": 20,
+      "edge_type": 38,
+      "importance": 0.7218649387359619
+    },
+    {
+      "source_id": 5747,
+      "target_id": 2040,
+      "edge_type": 8,
+      "importance": 0.7145123481750488
+    },
+    {
+      "source_id": 2040,
+      "target_id": 5747,
+      "edge_type": 9,
+      "importance": 0.7033722996711731
+    },
+    {
+      "source_id": 5078,
+      "target_id": 5747,
+      "edge_type": 3,
+      "importance": 0.6856166124343872
+    },
+    {
+      "source_id": 7690,
+      "target_id": 0,
+      "edge_type": 28,
+      "importance": 0.6245176792144775
+    },
+    {
+      "source_id": 6774,
+      "target_id": 0,
+      "edge_type": 10,
+      "importance": 0.565715491771698
+    },
+    {
+      "source_id": 5094,
+      "target_id": 5078,
+      "edge_type": 46,
+      "importance": 0.48686352372169495
+    },
+    {
+      "source_id": 0,
+      "target_id": 5747,
+      "edge_type": 41,
+      "importance": 0.3415834307670593
+    },
+    {
+      "source_id": 5747,
+      "target_id": 5512,
+      "edge_type": 56,
+      "importance": 0.3123176395893097
+    }
+  ],
+  "metadata": {
+    "explainer": "GNNExplainer",
+    "top_k_edges": 10,
+    "edge_mask_type": "object",
+    "excluded_predicates": [
+      "http://swrc.ontoware.org/ontology#affiliation",
+      "http://swrc.ontoware.org/ontology#member",
+      "http://swrc.ontoware.org/ontology#employs"
+    ]
+  }
+}

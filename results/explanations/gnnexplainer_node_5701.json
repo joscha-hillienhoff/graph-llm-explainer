@@ -1,0 +1,81 @@
+{
+  "node_id": 5701,
+  "node_uri": "http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id32instance",
+  "predicted_label_id": 2,
+  "predicted_label_uri": "http://www.aifb.uni-karlsruhe.de/Forschungsgruppen/viewForschungsgruppeOWL/id3instance",
+  "true_label_id": 2,
+  "true_label_uri": "http://www.aifb.uni-karlsruhe.de/Forschungsgruppen/viewForschungsgruppeOWL/id3instance",
+  "correct": true,
+  "edges": [
+    {
+      "source_id": 5078,
+      "target_id": 5701,
+      "edge_type": 3,
+      "importance": 0.7361526489257812
+    },
+    {
+      "source_id": 7903,
+      "target_id": 5701,
+      "edge_type": 37,
+      "importance": 0.7086924314498901
+    },
+    {
+      "source_id": 5291,
+      "target_id": 5701,
+      "edge_type": 24,
+      "importance": 0.7011865377426147
+    },
+    {
+      "source_id": 5319,
+      "target_id": 5701,
+      "edge_type": 24,
+      "importance": 0.690929114818573
+    },
+    {
+      "source_id": 5352,
+      "target_id": 7751,
+      "edge_type": 14,
+      "importance": 0.6804732084274292
+    },
+    {
+      "source_id": 5307,
+      "target_id": 5701,
+      "edge_type": 24,
+      "importance": 0.680091917514801
+    },
+    {
+      "source_id": 5310,
+      "target_id": 5701,
+      "edge_type": 24,
+      "importance": 0.6703903675079346
+    },
+    {
+      "source_id": 7751,
+      "target_id": 5701,
+      "edge_type": 1,
+      "importance": 0.6696460843086243
+    },
+    {
+      "source_id": 5352,
+      "target_id": 7545,
+      "edge_type": 14,
+      "importance": 0.6643404364585876
+    },
+    {
+      "source_id": 5199,
+      "target_id": 5701,
+      "edge_type": 24,
+      "importance": 0.6600814461708069
+    }
+  ],
+  "metadata": {
+    "explainer": "GNNExplainer",
+    "top_k_edges": 10,
+    "edge_mask_type": "object",
+    "excluded_predicates": [
+      "http://swrc.ontoware.org/ontology#affiliation",
+      "http://swrc.ontoware.org/ontology#member",
+      "http://swrc.ontoware.org/ontology#employs"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "node_id": 5573,
+  "node_uri": "http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id1970instance",
+  "predicted_label_id": 0,
+  "predicted_label_uri": "http://www.aifb.uni-karlsruhe.de/Forschungsgruppen/viewForschungsgruppeOWL/id1instance",
+  "true_label_id": 0,
+  "true_label_uri": "http://www.aifb.uni-karlsruhe.de/Forschungsgruppen/viewForschungsgruppeOWL/id1instance",
+  "correct": true,
+  "edges": [
+    {
+      "source_id": 1348,
+      "target_id": 5573,
+      "edge_type": 9,
+      "importance": 0.690554141998291
+    },
+    {
+      "source_id": 5573,
+      "target_id": 1348,
+      "edge_type": 8,
+      "importance": 0.6870695352554321
+    },
+    {
+      "source_id": 3162,
+      "target_id": 5573,
+      "edge_type": 37,
+      "importance": 0.6830928921699524
+    },
+    {
+      "source_id": 0,
+      "target_id": 5573,
+      "edge_type": 39,
+      "importance": 0.6802091002464294
+    },
+    {
+      "source_id": 5078,
+      "target_id": 5573,
+      "edge_type": 3,
+      "importance": 0.6794880032539368
+    },
+    {
+      "source_id": 7690,
+      "target_id": 0,
+      "edge_type": 28,
+      "importance": 0.6590963006019592
+    },
+    {
+      "source_id": 6774,
+      "target_id": 0,
+      "edge_type": 10,
+      "importance": 0.4913191795349121
+    },
+    {
+      "source_id": 0,
+      "target_id": 5573,
+      "edge_type": 41,
+      "importance": 0.4092871844768524
+    },
+    {
+      "source_id": 6553,
+      "target_id": 5078,
+      "edge_type": 2,
+      "importance": 0.28253570199012756
+    },
+    {
+      "source_id": 6398,
+      "target_id": 5078,
+      "edge_type": 2,
+      "importance": 0.2822279632091522
+    }
+  ],
+  "metadata": {
+    "explainer": "GNNExplainer",
+    "top_k_edges": 10,
+    "edge_mask_type": "object",
+    "excluded_predicates": [
+      "http://swrc.ontoware.org/ontology#affiliation",
+      "http://swrc.ontoware.org/ontology#member",
+      "http://swrc.ontoware.org/ontology#employs"
+    ]
+  }
+}

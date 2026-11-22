@@ -1,0 +1,11 @@
+source_id,target_id,edge_type,source_label,target_label,predicate,direction,importance_score,generated_fact
+5538,4683,8,Uwe Kersten,Uwe Kersten,:name,forward,0.6888558268547058,Uwe Kersten --:name--> Uwe Kersten
+4683,5538,9,Uwe Kersten,Uwe Kersten,:name,inverse,0.6877933740615845,Uwe Kersten --:name--> Uwe Kersten
+0,5538,39,,Uwe Kersten,:homepage,inverse,0.6858415603637695,Uwe Kersten --:homepage--> 
+3162,5538,37,None,Uwe Kersten,:series,inverse,0.6850647330284119,Uwe Kersten --:series--> None
+5078,5538,3,:Person,Uwe Kersten,rdf:type,inverse,0.6714286804199219,Uwe Kersten --rdf:type--> :Person
+7690,0,28,Knowledge Portals,,:abstract,forward,0.6554737687110901,Knowledge Portals --:abstract--> 
+6774,0,10,<http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance>,,:title,forward,0.5042914748191833,<http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title--> 
+0,5538,41,,Uwe Kersten,:fax,inverse,0.41121095418930054,Uwe Kersten --:fax--> 
+5562,5078,2,Thomas Wendel,:Person,rdf:type,forward,0.28327029943466187,Thomas Wendel --rdf:type--> :Person
+6016,5078,2,Gregor Engels,:Person,rdf:type,forward,0.2832659184932709,Gregor Engels --rdf:type--> :Person

@@ -1,0 +1,11 @@
+source_id,target_id,edge_type,source_label,target_label,predicate,direction,importance_score,generated_fact
+7690,0,28,Knowledge Portals,,:abstract,forward,0.7254412770271301,Knowledge Portals --:abstract--> 
+0,5544,39,,Thomas Mochel,:homepage,inverse,0.7099459767341614,Thomas Mochel --:homepage--> 
+6774,0,10,<http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance>,,:title,forward,0.6970022916793823,<http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1114instance> --:title--> 
+5078,5544,3,:Person,Thomas Mochel,rdf:type,inverse,0.6963706016540527,Thomas Mochel --rdf:type--> :Person
+5704,0,36,Markus Wiese,,:series,forward,0.6878178119659424,Markus Wiese --:series--> 
+5544,4557,8,Thomas Mochel,Thomas Mochel,:name,forward,0.6864516139030457,Thomas Mochel --:name--> Thomas Mochel
+4557,5544,9,Thomas Mochel,Thomas Mochel,:name,inverse,0.6847618222236633,Thomas Mochel --:name--> Thomas Mochel
+0,5544,41,,Thomas Mochel,:fax,inverse,0.3262741267681122,Thomas Mochel --:fax--> 
+8024,5078,3,owl:Class,:Person,rdf:type,inverse,0.288105309009552,:Person --rdf:type--> owl:Class
+6015,5078,2,Monica GÃ¶stl,:Person,rdf:type,forward,0.2859054505825043,Monica GÃ¶stl --rdf:type--> :Person
